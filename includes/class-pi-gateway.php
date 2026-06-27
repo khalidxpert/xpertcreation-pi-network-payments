@@ -1,7 +1,7 @@
 <?php
 if (!defined('ABSPATH')) exit;
 
-class WC_Pi_Pay_Gateway extends WC_Payment_Gateway {
+class XpertPi_Gateway extends WC_Payment_Gateway {
 
     public function __construct() {
         $this->id                 = 'pi_pay';

@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: Pi Pay for WooCommerce
+ * Plugin Name: XpertCreation Pi Network Payments for WooCommerce
  * Plugin URI: https://app.xpertcreation.com/pi-pay
- * Description: Accept Pi Network cryptocurrency payments in your WooCommerce store. The easiest way to integrate Pi payments.
+ * Description: Accept Pi Network cryptocurrency payments in your WooCommerce store. Not officially affiliated with Pi Network or WooCommerce.
  * Version: 1.0.0
  * Author: XpertCreation
  * Author URI: https://app.xpertcreation.com
@@ -15,6 +15,8 @@
  * Requires PHP: 7.4
  * WC requires at least: 5.0
  * WC tested up to: 8.0
+ * Requires Plugins: woocommerce
+ * Requires Plugins: woocommerce
  */
 
 if (!defined('ABSPATH')) exit;
@@ -41,7 +43,7 @@ function pi_pay_init() {
 }
 
 function pi_pay_add_gateway($gateways) {
-    $gateways[] = 'WC_Pi_Pay_Gateway';
+    $gateways[] = 'XpertPi_Gateway';
     return $gateways;
 }
 

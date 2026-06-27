@@ -1,4 +1,4 @@
-# Pi Pay for WooCommerce
+# XpertCreation Pi Network Payments for WooCommerce
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![License](https://img.shields.io/badge/license-GPL%20v2-green)
