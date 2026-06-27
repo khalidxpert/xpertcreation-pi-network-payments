@@ -42,10 +42,10 @@ Accept Pi Network cryptocurrency payments in your WooCommerce store.
 ## Screenshots
 
 ### Checkout Page
-![Checkout](assets/images/screenshot-1.png)
+![Checkout](screenshot-1.png)
 
 ### Settings Page
-![Settings](assets/images/screenshot-2.png)
+![Settings](screenshot-2.png)
 
 ## Pro Version
 
